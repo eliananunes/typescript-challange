@@ -1,23 +1,29 @@
-// Como podemos melhorar o esse código usando TS? 
+interface data {
+    name: string,
+    age: number,
+    job: string,
+}
 
-let pessoa1 = {};
-pessoa1.nome = "maria";
-pessoa1.idade = 29;
-pessoa1.profissao = "atriz"
+let firstPerson: data = {
+    name: 'Maria',
+    age: 29,
+    job: 'actress',
+}
 
-let pessoa2 = {}
-pessoa2.nome = "roberto";
-pessoa2.idade = 19;
-pessoa2.profissao = "Padeiro";
+let secondPerson: data = {
+    name: 'Roberto',
+    age: 19,
+    job: 'baker',
+}
 
-let pessoa3 = {
-    nome: "laura",
-    idade: "32",
-    profissao: "Atriz"
+let thirdPerson: data = {
+    name: 'Laura',
+    age: 32,
+    job: 'actress',
 };
 
-let pessoa4 = {
-    nome = "carlos",
-    idade = 19,
-    profissao = "padeiro"
+let fourthPerson: data = {
+    name: 'Carlos',
+    age: 19,
+    job: 'baker',
 }
