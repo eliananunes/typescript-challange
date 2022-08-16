@@ -1,5 +1,9 @@
-// Como podemos rodar isso em um arquivo .ts sem causar erros? 
+interface employee {
+    code: number,
+    name: string,
+}
 
-let employee = {};
-employee.code = 10;
-employee.name = "John";
+let newEmployee: employee = {
+    code: 10,
+    name: 'John',
+}
